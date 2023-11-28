@@ -1,0 +1,956 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daniels</title>
+    <link rel="icon" href="assets/images/favicon.ico" />
+    <!-- !==========GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- ^==========ICOMOON CSS  -->
+    <link rel="stylesheet" href="assets/css/icomoon.css" />
+    <!-- ?==========BOOTSTRAP CSS  -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <!-- ~==========MAIN STYLE SHEET  -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#navbar">
+    <!-- !====================Navbar Section-->
+    <nav
+      class="navbar navbar-expand-lg navbar-light mx-auto sticky-top bg-white"
+      id="navbar"
+    >
+      <div class="container w-75">
+        <a class="navbar-brand text-uppercase fw-bolder" href="#">Daniels</a>
+        <button
+          class="navbar-toggler border-0"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-lg-5">
+            <li class="nav-item">
+              <a class="nav-link underline p-0 active" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link underline" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link underline" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link underline" href="#works">Works</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link underline" href="#clients">Clients</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link underline" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- todo=================Header Section -->
+    <header
+      class="text-light d-flex justify-content-center align-items-center flex-column gap-4"
+      id="home"
+    >
+      <h2 class="fw-bolder display-5">Hello</h2>
+      <h1 class="position-relative display-3">I AM&nbsp;</h1>
+      <div class="d-flex gap-2">
+        <i class="icon-facebook rounded-circle bg-black p-2"></i>
+        <i class="icon-twitter rounded-circle bg-black p-2"></i>
+        <i class="icon-linkedin rounded-circle bg-black p-2"></i>
+        <i class="icon-behance rounded-circle bg-black p-2"></i>
+        <i class="icon-youtube rounded-circle bg-black p-2"></i>
+      </div>
+    </header>
+
+    <!-- ~====================About me Section -->
+    <section
+      class="container-lg row w-lg-75 mx-auto mt-5 pt-5 mb-5 pb-5 gap-5 gap-lg-0"
+      id="about"
+    >
+      <div class="hero-img col-lg-5 position-relative">
+        <img
+          src="assets/images/hero.jpg"
+          alt="man wearing green"
+          class="w-100 p-0"
+        />
+      </div>
+      <div class="col-lg-7 d-flex flex-column gap-4">
+        <div>
+          <h2 class="fw-bolder fs-2">About Me</h2>
+          <span class="gray">UI / UX DESIGNER & WEB DEVELOPER</span>
+        </div>
+        <p class="gray">
+          I am <span class="fw-bolder">Jerry Daniels</span> Lorem Ipsum is
+          simply dummy text of the printing and typesetting industry. Lorem
+          Ipsum has been the industry's standard dummy text ever It has survived
+          not only five centuries, but also the leap into electronic but also
+          the leap into electronic typesetting, remaining essentially unchanged.
+          It was popularised in the 1960s with the release of Letraset sheets
+          containing
+        </p>
+
+        <div class="w-100 bg-light prog rounded overflow-hidden">
+          <div
+            class="d-flex justify-content-between align-items-center w-95 bg-black text-white h-100 rounded"
+          >
+            <p class="ps-3 m-0">Web Design</p>
+            <p class="pe-3 m-0">95%</p>
+          </div>
+        </div>
+        <div class="w-100 bg-light prog rounded overflow-hidden">
+          <div
+            class="d-flex justify-content-between align-items-center w-80 bg-black text-white h-100 rounded"
+          >
+            <p class="ps-3 m-0">Branding</p>
+            <p class="pe-3 m-0">80%</p>
+          </div>
+        </div>
+        <div class="w-100 bg-light prog rounded overflow-hidden">
+          <div
+            class="d-flex justify-content-between align-items-center w-90 bg-black text-white h-100 rounded"
+          >
+            <p class="ps-3 m-0">Devlopment</p>
+            <p class="pe-3 m-0">90%</p>
+          </div>
+        </div>
+        <div class="button pt-lg-5 pt-3">
+          <button class="btn-1 px-4 py-2 rounded-1">
+            Download <abbr title="curriculum vitae">C.V</abbr>
+          </button>
+          <button class="btn-2 px-4 py-2 rounded-1">Contact Me</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ?====================Services Section -->
+    <section
+      class="mt-lg-5 pt-5 mb-lg-5 pb-5 bg-light w-100 text-center"
+      id="services"
+    >
+      <div class="dots-bg position-relative w-fit mx-auto">
+        <h1 class="fw-bolder mt-5 position-relative w-fit mx-auto">
+          Services.
+        </h1>
+      </div>
+      <div class="row mx-auto mt-5 gap-4 justify-content-center">
+        <div
+          class="col-lg-3 col-10 cards bg-white d-flex justify-content-center align-items-center pt-5 pb-3 rounded-1"
+        >
+          <div class="">
+            <i class="icon-laptop fs-3 bg-eee p-3 rounded-circle"></i>
+            <h3 class="fs-6 pt-4 fw-bolder">Web Design</h3>
+            <p class="text-center gray w-90 mx-auto">
+              Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the
+              industry's standard dummy text ever
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="col-lg-3 col-10 cards bg-white d-flex justify-content-center align-items-center pt-5 pb-3 rounded-1"
+        >
+          <div class="">
+            <i class="icon-bullhorn fs-3 bg-eee p-3 rounded-circle"></i>
+            <h3 class="fs-6 pt-4 fw-bolder">Branding</h3>
+            <p class="text-center gray w-90 mx-auto">
+              Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the
+              industry's standard dummy text ever
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="col-lg-3 col-10 cards bg-white d-flex justify-content-center align-items-center pt-5 pb-3 rounded-1"
+        >
+          <div class="">
+            <i class="icon-umbrella fs-3 bg-eee p-3 rounded-circle"></i>
+            <h3 class="fs-6 pt-4 fw-bolder">Development</h3>
+            <p class="text-center gray w-90 mx-auto">
+              Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the
+              industry's standard dummy text ever
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mx-auto mt-5 gap-4 justify-content-center">
+        <div
+          class="col-lg-3 col-10 cards bg-white d-flex justify-content-center align-items-center pt-5 pb-3 rounded-1"
+        >
+          <div class="">
+            <i class="icon-diamond fs-3 bg-eee p-3 rounded-circle"></i>
+            <h3 class="fs-6 pt-4 fw-bolder">Creative Design</h3>
+            <p class="text-center gray w-90 mx-auto">
+              Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the
+              industry's standard dummy text ever
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="col-lg-3 col-10 cards bg-white d-flex justify-content-center align-items-center pt-5 pb-3 rounded-1"
+        >
+          <div class="inner col-lg-4 w-95">
+            <i class="icon-television fs-3 bg-eee p-3 rounded-circle"></i>
+            <h3 class="fs-6 pt-4 fw-bolder">Fully Responsive</h3>
+            <p class="text-center gray w-90 mx-auto">
+              Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the
+              industry's standard dummy text ever
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="col-lg-3 col-10 cards bg-white d-flex justify-content-center align-items-center pt-5 pb-3 rounded-1"
+        >
+          <div class="">
+            <i class="icon-camera fs-3 bg-eee p-3 rounded-circle"></i>
+            <h3 class="fs-6 pt-4 fw-bolder">Retina Ready</h3>
+            <p class="text-center gray w-90 mx-auto">
+              Lorem Ipsum is simply dummy text of the Lorem Ipsum has been the
+              industry's standard dummy text ever
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- &=======================Portofolio Section -->
+    <section class="pt-3 pb-5" id="works">
+      <div class="dots-bg position-relative w-fit mx-auto">
+        <h1 class="fw-bolder mt-3 position-relative w-fit mx-auto">
+          Portfolio.
+        </h1>
+      </div>
+
+      <ul
+        class="nav nav-pills mb-3 d-flex justify-content-center mt-5 gap-5"
+        id="pills-tab"
+        role="tablist"
+      >
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link active"
+            id="pills-all-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-all"
+            type="button"
+            role="tab"
+            aria-controls="pills-all"
+            aria-selected="true"
+          >
+            All
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="pills-brand-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-brand"
+            type="button"
+            role="tab"
+            aria-controls="pills-brand"
+            aria-selected="false"
+          >
+            Brand
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="pills-design-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-design"
+            type="button"
+            role="tab"
+            aria-controls="pills-contact"
+            aria-selected="false"
+          >
+            Design
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button
+            class="nav-link"
+            id="pills-graphic-tab"
+            data-bs-toggle="pill"
+            data-bs-target="#pills-graphic"
+            type="button"
+            role="tab"
+            aria-controls="pills-contact"
+            aria-selected="false"
+          >
+            Graphic
+          </button>
+        </li>
+      </ul>
+      <div class="tab-content" id="pills-tabContent">
+        <div
+          class="tab-pane fade show active"
+          id="pills-all"
+          role="tabpanel"
+          aria-labelledby="pills-all-tab"
+        >
+          <div class="row flex-wrap mx-auto w-80 g-4 mt-4">
+            <div class="col-lg-4 position-relative">
+              <img
+                src="assets/images/portfolio/1.jpg"
+                alt="charger"
+                class="w-100"
+              />
+              <div
+                class="cover d-flex flex-column justify-content-center align-items-center"
+              >
+                <div
+                  class="info d-flex flex-column justify-content-center align-items-center"
+                >
+                  <h3 class="fw-bolder">WEB DESIGN</h3>
+                  <div class="icons">
+                    <i
+                      class="icon-chain-broken p-2 bg-black text-light rounded-circle"
+                    ></i>
+                    <i
+                      class="icon-zoom_in p-2 bg-black text-light rounded-circle"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 position-relative">
+              <img
+                src="assets/images/portfolio/2.jpg"
+                alt="book"
+                class="w-100"
+              />
+              <div
+                class="cover d-flex flex-column justify-content-center align-items-center"
+              >
+                <div
+                  class="info d-flex flex-column justify-content-center align-items-center"
+                >
+                  <h3 class="fw-bolder">WEB DESIGN</h3>
+                  <div class="icons">
+                    <i
+                      class="icon-chain-broken p-2 bg-black text-light rounded-circle"
+                    ></i>
+                    <i
+                      class="icon-zoom_in p-2 bg-black text-light rounded-circle"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 position-relative">
+              <img
+                src="assets/images/portfolio/3.jpg"
+                alt="paper"
+                class="w-100"
+              />
+              <div
+                class="cover d-flex flex-column justify-content-center align-items-center"
+              >
+                <div
+                  class="info d-flex flex-column justify-content-center align-items-center"
+                >
+                  <h3 class="fw-bolder">WEB DESIGN</h3>
+                  <div class="icons">
+                    <i
+                      class="icon-chain-broken p-2 bg-black text-light rounded-circle"
+                    ></i>
+                    <i
+                      class="icon-zoom_in p-2 bg-black text-light rounded-circle"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 position-relative">
+              <img
+                src="assets/images/portfolio/4.jpg"
+                alt="lamp"
+                class="w-100"
+              />
+              <div
+                class="cover d-flex flex-column justify-content-center align-items-center"
+              >
+                <div
+                  class="info d-flex flex-column justify-content-center align-items-center"
+                >
+                  <h3 class="fw-bolder">WEB DESIGN</h3>
+                  <div class="icons">
+                    <i
+                      class="icon-chain-broken p-2 bg-black text-light rounded-circle"
+                    ></i>
+                    <i
+                      class="icon-zoom_in p-2 bg-black text-light rounded-circle"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 position-relative">
+              <img
+                src="assets/images/portfolio/5.jpg"
+                alt="ruler"
+                class="w-100"
+              />
+              <div
+                class="cover d-flex flex-column justify-content-center align-items-center"
+              >
+                <div
+                  class="info d-flex flex-column justify-content-center align-items-center"
+                >
+                  <h3 class="fw-bolder">WEB DESIGN</h3>
+                  <div class="icons">
+                    <i
+                      class="icon-chain-broken p-2 bg-black text-light rounded-circle"
+                    ></i>
+                    <i
+                      class="icon-zoom_in p-2 bg-black text-light rounded-circle"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 position-relative">
+              <img
+                src="assets/images/portfolio/6.jpg"
+                alt="pen"
+                class="w-100"
+              />
+              <div
+                class="cover d-flex flex-column justify-content-center align-items-center"
+              >
+                <div
+                  class="info d-flex flex-column justify-content-center align-items-center"
+                >
+                  <h3 class="fw-bolder">WEB DESIGN</h3>
+                  <div class="icons">
+                    <i
+                      class="icon-chain-broken p-2 bg-black text-light rounded-circle"
+                    ></i>
+                    <i
+                      class="icon-zoom_in p-2 bg-black text-light rounded-circle"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="pills-brand"
+          role="tabpanel"
+          aria-labelledby="pills-brand-tab"
+        >
+          <div class="row flex-wrap mx-auto w-80 g-4 mt-4">
+            <div class="col-lg-4 position-relative">
+              <img
+                src="assets/images/portfolio/4.jpg"
+                alt="lamp"
+                class="w-100"
+              />
+              <div
+                class="cover d-flex flex-column justify-content-center align-items-center"
+              >
+                <div
+                  class="info d-flex flex-column justify-content-center align-items-center"
+                >
+                  <h3 class="fw-bolder">WEB DESIGN</h3>
+                  <div class="icons">
+                    <i
+                      class="icon-chain-broken p-2 bg-black text-light rounded-circle"
+                    ></i>
+                    <i
+                      class="icon-zoom_in p-2 bg-black text-light rounded-circle"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 position-relative">
+              <img
+                src="assets/images/portfolio/6.jpg"
+                alt="pen"
+                class="w-100"
+              />
+              <div
+                class="cover d-flex flex-column justify-content-center align-items-center"
+              >
+                <div
+                  class="info d-flex flex-column justify-content-center align-items-center"
+                >
+                  <h3 class="fw-bolder">WEB DESIGN</h3>
+                  <div class="icons">
+                    <i
+                      class="icon-chain-broken p-2 bg-black text-light rounded-circle"
+                    ></i>
+                    <i
+                      class="icon-zoom_in p-2 bg-black text-light rounded-circle"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="pills-design"
+          role="tabpanel"
+          aria-labelledby="pills-design-tab"
+        >
+          <div class="row flex-wrap mx-auto w-80 g-4 mt-4">
+            <div class="col-lg-4 position-relative">
+              <img
+                src="assets/images/portfolio/2.jpg"
+                alt="book"
+                class="w-100"
+              />
+              <div
+                class="cover d-flex flex-column justify-content-center align-items-center"
+              >
+                <div
+                  class="info d-flex flex-column justify-content-center align-items-center"
+                >
+                  <h3 class="fw-bolder">WEB DESIGN</h3>
+                  <div class="icons">
+                    <i
+                      class="icon-chain-broken p-2 bg-black text-light rounded-circle"
+                    ></i>
+                    <i
+                      class="icon-zoom_in p-2 bg-black text-light rounded-circle"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 position-relative">
+              <img
+                src="assets/images/portfolio/5.jpg"
+                alt="ruler"
+                class="w-100"
+              />
+              <div
+                class="cover d-flex flex-column justify-content-center align-items-center"
+              >
+                <div
+                  class="info d-flex flex-column justify-content-center align-items-center"
+                >
+                  <h3 class="fw-bolder">WEB DESIGN</h3>
+                  <div class="icons">
+                    <i
+                      class="icon-chain-broken p-2 bg-black text-light rounded-circle"
+                    ></i>
+                    <i
+                      class="icon-zoom_in p-2 bg-black text-light rounded-circle"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="tab-pane fade"
+          id="pills-graphic"
+          role="tabpanel"
+          aria-labelledby="pills-graphic-tab"
+        >
+          <div class="row flex-wrap mx-auto w-80 g-4 mt-4">
+            <div class="col-lg-4 position-relative">
+              <img
+                src="assets/images/portfolio/1.jpg"
+                alt="charger"
+                class="w-100"
+              />
+              <div
+                class="cover d-flex flex-column justify-content-center align-items-center"
+              >
+                <div
+                  class="info d-flex flex-column justify-content-center align-items-center"
+                >
+                  <h3 class="fw-bolder">WEB DESIGN</h3>
+                  <div class="icons">
+                    <i
+                      class="icon-chain-broken p-2 bg-black text-light rounded-circle"
+                    ></i>
+                    <i
+                      class="icon-zoom_in p-2 bg-black text-light rounded-circle"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 position-relative">
+              <img
+                src="assets/images/portfolio/3.jpg"
+                alt="paper"
+                class="w-100"
+              />
+              <div
+                class="cover d-flex flex-column justify-content-center align-items-center"
+              >
+                <div
+                  class="info d-flex flex-column justify-content-center align-items-center"
+                >
+                  <h3 class="fw-bolder">WEB DESIGN</h3>
+                  <div class="icons">
+                    <i
+                      class="icon-chain-broken p-2 bg-black text-light rounded-circle"
+                    ></i>
+                    <i
+                      class="icon-zoom_in p-2 bg-black text-light rounded-circle"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-4 position-relative">
+              <img
+                src="assets/images/portfolio/5.jpg"
+                alt="ruler"
+                class="w-100"
+              />
+              <div
+                class="cover d-flex flex-column justify-content-center align-items-center"
+              >
+                <div
+                  class="info d-flex flex-column justify-content-center align-items-center"
+                >
+                  <h3 class="fw-bolder">WEB DESIGN</h3>
+                  <div class="icons">
+                    <i
+                      class="icon-chain-broken p-2 bg-black text-light rounded-circle"
+                    ></i>
+                    <i
+                      class="icon-zoom_in p-2 bg-black text-light rounded-circle"
+                    ></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- *=======================Testimonials Section -->
+    <section class="testimonials mt-5 pt-5 pb-5 bg-light" id="clients">
+      <div class="dots-bg position-relative w-fit mx-auto">
+        <h1 class="fw-bolder mt-3 position-relative w-fit mx-auto">
+          Testimonials.
+        </h1>
+      </div>
+
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner mt-5 pt-5">
+          <div class="carousel-item active">
+            <div
+              class="d-flex flex-column justify-content-center align-items-center gap-4"
+            >
+              <img
+                src="assets/images/1_New1.jpg"
+                class="rounded-circle"
+                alt="man wearing gray"
+              />
+              <p class="w-75 text-center gray">
+                Lorem Ipsum has been the industry's standard dummy text ever
+                since the when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book.
+              </p>
+              <div
+                class="d-flex flex-column justify-content-center align-items-center"
+              >
+                <h4 class="fs-6">Alex Smith</h4>
+                <span class="fw-bolder gray" style="font-size: 12px"
+                  >Envato Customer</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div
+              class="d-flex flex-column justify-content-center align-items-center gap-4"
+            >
+              <img
+                src="assets/images/1_New1.jpg"
+                class="rounded-circle"
+                alt="man wearing gray"
+              />
+              <p class="w-75 text-center gray">
+                Lorem Ipsum has been the industry's standard dummy text ever
+                since the when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book.
+              </p>
+              <div
+                class="d-flex flex-column justify-content-center align-items-center"
+              >
+                <h4 class="fs-6">Alex Smith</h4>
+                <span class="fw-bolder gray" style="font-size: 12px"
+                  >Envato Customer</span
+                >
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div
+              class="d-flex flex-column justify-content-center align-items-center gap-4"
+            >
+              <img
+                src="assets/images/1_New1.jpg"
+                class="rounded-circle"
+                alt="man wearing gray"
+              />
+              <p class="w-75 text-center gray">
+                Lorem Ipsum has been the industry's standard dummy text ever
+                since the when an unknown printer took a galley of type and
+                scrambled it to make a type specimen book.
+              </p>
+              <div
+                class="d-flex flex-column justify-content-center align-items-center"
+              >
+                <h4 class="fs-6">Alex Smith</h4>
+                <span class="fw-bolder gray" style="font-size: 12px"
+                  >Envato Customer</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-indicators position-static gap-2 mt-5">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ^===================Numbers section -->
+    <section class="numbers mt-5 pt-5">
+      <div
+        class="row w-80 h-100 mx-auto justify-content-center align-items-center text-center gap-lg-0 gap-3"
+      >
+        <div class="col-lg-3">
+          <i class="icon-users fs-2"></i>
+          <h3 class="fs-2 fw-bolder">850</h3>
+          <p class="fs-6 gray fw-bold">Happy Customers</p>
+        </div>
+        <div class="col-lg-3">
+          <i class="icon-thumbs-up fs-2"></i>
+          <h3 class="fs-2 fw-bolder">230</h3>
+          <p class="fs-6 gray fw-bold">Complete Projects</p>
+        </div>
+        <div class="col-lg-3">
+          <i class="icon-bullhorn fs-2"></i>
+          <h3 class="fs-2 fw-bolder">9450</h3>
+          <p class="fs-6 gray fw-bold">Lines Of Code</p>
+        </div>
+        <div class="col-lg-3">
+          <i class="icon-cloud-download fs-2"></i>
+          <h3 class="fs-2 fw-bolder">780</h3>
+          <p class="fs-6 gray fw-bold">Files Downloaded</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- *=====================Our Team Section -->
+    <section class="bg-light mt-5 pt-5 pb-5">
+      <div class="dots-bg position-relative w-fit mx-auto">
+        <h1 class="fw-bolder mt-3 position-relative w-fit mx-auto">Our Team</h1>
+      </div>
+
+      <div
+        class="d-flex mt-5 justify-content-center align-items-center text-center gap-4 flex-wrap"
+      >
+        <div
+          class="main-card col-lg-3 col-md-5 card p-0 overflow-hidden rounded-1"
+        >
+          <div class="details overflow-hidden position-relative">
+            <img
+              src="assets/images/1.jpg"
+              alt="man wearing gray scarf"
+              class="w-100"
+            />
+            <div
+              class="cover-1 d-flex justify-content-center align-items-center gap-2 p-0"
+            >
+              <i class="icon-facebook fs-4 p-2 rounded-circle"></i>
+              <i class="icon-twitter fs-4 p-2 rounded-circle"></i>
+              <i class="icon-pinterest fs-4 p-2 rounded-circle"></i>
+              <i class="icon-linkedin fs-4 p-2 rounded-circle"></i>
+            </div>
+          </div>
+          <div class="inner-data pt-4 p-1 pb-4 text-light bg-gray">
+            <h3>John Deo</h3>
+            <h3 class="fs-5 fw-bolder">FRONT-END DEVELOPER</h3>
+          </div>
+        </div>
+        <div
+          class="main-card col-lg-3 col-md-5 card p-0 overflow-hidden rounded-1"
+        >
+          <div class="details overflow-hidden position-relative">
+            <img
+              src="assets/images/2.jpg"
+              alt="man wearing red"
+              class="w-100"
+            />
+            <div
+              class="cover-1 d-flex justify-content-center align-items-center gap-2 p-0"
+            >
+              <i class="icon-facebook fs-4 p-2 rounded-circle"></i>
+              <i class="icon-twitter fs-4 p-2 rounded-circle"></i>
+              <i class="icon-pinterest fs-4 p-2 rounded-circle"></i>
+              <i class="icon-linkedin fs-4 p-2 rounded-circle"></i>
+            </div>
+          </div>
+          <div class="inner-data pt-4 p-1 pb-4 text-light bg-gray">
+            <h3>John Deo</h3>
+            <h3 class="fs-5 fw-bolder">FRONT-END DEVELOPER</h3>
+          </div>
+        </div>
+        <div
+          class="main-card col-lg-3 col-md-5 card p-0 overflow-hidden rounded-1"
+        >
+          <div class="details overflow-hidden position-relative">
+            <img
+              src="assets/images/1.jpg"
+              alt="man wearing gray scarf"
+              class="w-100"
+            />
+            <div
+              class="cover-1 d-flex justify-content-center align-items-center gap-2 p-0"
+            >
+              <i class="icon-facebook fs-4 p-2 rounded-circle"></i>
+              <i class="icon-twitter fs-4 p-2 rounded-circle"></i>
+              <i class="icon-pinterest fs-4 p-2 rounded-circle"></i>
+              <i class="icon-linkedin fs-4 p-2 rounded-circle"></i>
+            </div>
+          </div>
+          <div class="inner-data pt-4 p-1 pb-4 text-light bg-gray">
+            <h3>John Deo</h3>
+            <h3 class="fs-5 fw-bolder">FRONT-END DEVELOPER</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- !=========================Contact Us Section -->
+
+    <section class="mt-5 pt-5 pb-5" id="contact">
+      <div class="dots-bg position-relative w-fit mx-auto">
+        <h1 class="fw-bolder mt-3 position-relative w-fit mx-auto mb-5">
+          Contact Us
+        </h1>
+      </div>
+
+      <div class="row mt-5 w-75 mx-auto">
+        <div class="contact-us col-lg-4 d-flex flex-column gap-4 text-center">
+          <i
+            class="icon-location-arrow p-4 fs-4 rounded-circle w-fit mx-auto"
+          ></i>
+          <div>
+            <h3 class="fs-5 fs-6 fw-bolder">Address</h3>
+            <p class="gray">6834 Hollywood Blvd - Los Angeles CA</p>
+          </div>
+        </div>
+        <div class="contact-us col-lg-4 d-flex flex-column gap-4 text-center">
+          <i class="icon-envelope p-4 fs-4 rounded-circle w-fit mx-auto"></i>
+          <div>
+            <h3 class="fs-5 fs-6 fw-bolder">Email</h3>
+            <p class="gray">Support@website.com</p>
+          </div>
+        </div>
+        <div class="contact-us col-lg-4 d-flex flex-column gap-4 text-center">
+          <i class="icon-phone p-4 fs-4 rounded-circle w-fit mx-auto"></i>
+          <div>
+            <h3 class="fs-5 fs-6 fw-bolder">Phone</h3>
+            <p class="gray">+20 010 2517 8918</p>
+          </div>
+        </div>
+      </div>
+
+      <form action="" class="d-flex flex-column w-75 mx-auto gap-3 mt-5">
+        <div
+          class="d-flex w-100 justify-content-between flex-wrap gap-3 gap-lg-0"
+        >
+          <input
+            type="text"
+            name="name"
+            placeholder="Name"
+            class="col-lg-6 col-12 p-2 rounded-1"
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="Email"
+            class="col-lg-6 col-12 p-2 rounded-1"
+          />
+        </div>
+        <textarea
+          name="message"
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Message"
+          class="p-2 rounded-1"
+        ></textarea>
+        <button type="button" class="btn btn-dark w-fit px-5">Submit</button>
+      </form>
+    </section>
+
+    <!-- ~=====================footer -->
+    <footer class="d-flex justify-content-center align-items-center mt-5">
+      <p class="m-0">Copy Right 2018 © By Daniels All Rights Reserved</p>
+    </footer>
+
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
